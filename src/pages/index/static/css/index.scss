@@ -1,0 +1,13 @@
+$defaultWidth: 100px; //全局变量
+$defaultWidth: 200px !default;
+.div1 {
+  $height: 50px; //定义变量  局部变量
+  width: $defaultWidth;
+  height: $height; //引用变量
+  color: red;
+  background: url('../img/15.jpg');
+}
+.div2 {
+  width: $defaultWidth;
+}
+
